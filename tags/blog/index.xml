@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on BitsInCloud</title><link>https://rogeriofontes.github.io/bitsincloud-blog/tags/blog/</link><description>Recent content in Blog on BitsInCloud</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 09 Mar 2025 20:14:52 -0300</lastBuildDate><atom:link href="https://rogeriofontes.github.io/bitsincloud-blog/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Ec2 Fleet - Como Criar uma Frota de EC2 e fazer o escalonamento</title><link>https://rogeriofontes.github.io/bitsincloud-blog/posts/ec2-fleet/</link><pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/posts/ec2-fleet/</guid><description>&lt;h2 id="introdução">Introdução&lt;/h2>
+&lt;p>Neste artigo, abordaremos como criar uma frota de instâncias EC2 na AWS, configurar snapshots automatizados, criar um Load Balancer para distribuir o tráfego e implementar Auto Scaling para aumentar ou reduzir a capacidade automaticamente com base na demanda.&lt;/p>
+&lt;hr>
+&lt;h2 id="1-criando-uma-instância-ec2">1️⃣ Criando uma Instância EC2&lt;/h2>
+&lt;ol>
+&lt;li>Acesse o &lt;strong>Console AWS&lt;/strong> → &lt;strong>EC2&lt;/strong>.&lt;/li>
+&lt;li>Clique em &lt;strong>Executar Instância&lt;/strong>.&lt;/li>
+&lt;li>Escolha uma &lt;strong>Amazon Machine Image (AMI)&lt;/strong>, como &lt;strong>Amazon Linux 2&lt;/strong> ou &lt;strong>Ubuntu&lt;/strong>.&lt;/li>
+&lt;li>Selecione um &lt;strong>tipo de instância&lt;/strong> (exemplo: &lt;code>t2.micro&lt;/code> para o Free Tier).&lt;/li>
+&lt;li>Configure a &lt;strong>rede e o Security Group&lt;/strong>:
+&lt;ul>
+&lt;li>Permitir entrada na &lt;strong>porta 22&lt;/strong> (SSH) para acesso remoto.&lt;/li>
+&lt;li>Permitir entrada na &lt;strong>porta 80&lt;/strong> para acesso via navegador.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Clique em &lt;strong>Executar Instância&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>💡 &lt;strong>Após a criação, anote o IP da instância para testes.&lt;/strong>&lt;/p></description></item><item><title>Bem Vindo ao Meu Blog</title><link>https://rogeriofontes.github.io/bitsincloud-blog/posts/meu-primeiro-post/</link><pubDate>Sun, 09 Mar 2025 20:03:57 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/posts/meu-primeiro-post/</guid><description>&lt;p>Olá! Este é o meu primeiro post no blog, e estou muito animado para compartilhar conteúdo sobre &lt;strong>tecnologia, programação e diversos outros temas&lt;/strong>.&lt;/p>
+&lt;h2 id="-o-que-você-pode-esperar-daqui">🚀 O que você pode esperar daqui?&lt;/h2>
+&lt;p>Neste blog, pretendo publicar conteúdos sobre:&lt;/p>
+&lt;ul>
+&lt;li>Desenvolvimento Web (Next.js, React, Spring Boot, Go e dentre outras coisas)&lt;/li>
+&lt;li>Arquitetura de Software e boas práticas&lt;/li>
+&lt;li>Segurança da Informação e DevSecOps&lt;/li>
+&lt;li>Cloud Computing (AWS, GCP, Azure)&lt;/li>
+&lt;li>Estudos e certificações em TI&lt;/li>
+&lt;li>Curiosidades e desafios técnicos&lt;/li>
+&lt;/ul>
+&lt;h2 id="-vamos-interagir">🤝 Vamos interagir!&lt;/h2>
+&lt;p>Se tiver sugestões de temas ou quiser trocar ideias, fique à vontade para comentar ou entrar em contato.&lt;/p></description></item></channel></rss>

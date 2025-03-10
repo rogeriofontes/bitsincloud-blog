@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EC2 on BitsInCloud</title>
+    <link>http://localhost:1313/categories/ec2/</link>
+    <description>Recent content in EC2 on BitsInCloud</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Mar 2025 20:14:52 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ec2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ec2 Fleet - Como Criar uma Frota de EC2 e fazer o escalonamento</title>
+      <link>http://localhost:1313/posts/ec2-fleet/</link>
+      <pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/posts/ec2-fleet/</guid>
+      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Neste artigo, abordaremos como criar uma frota de instâncias EC2 na AWS, configurar snapshots automatizados, criar um Load Balancer para distribuir o tráfego e implementar Auto Scaling para aumentar ou reduzir a capacidade automaticamente com base na demanda.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-criando-uma-instância-ec2&#34;&gt;1️⃣ Criando uma Instância EC2&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Acesse o &lt;strong&gt;Console AWS&lt;/strong&gt; → &lt;strong&gt;EC2&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Clique em &lt;strong&gt;Executar Instância&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Escolha uma &lt;strong&gt;Amazon Machine Image (AMI)&lt;/strong&gt;, como &lt;strong&gt;Amazon Linux 2&lt;/strong&gt; ou &lt;strong&gt;Ubuntu&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Selecione um &lt;strong&gt;tipo de instância&lt;/strong&gt; (exemplo: &lt;code&gt;t2.micro&lt;/code&gt; para o Free Tier).&lt;/li&gt;&#xA;&lt;li&gt;Configure a &lt;strong&gt;rede e o Security Group&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Permitir entrada na &lt;strong&gt;porta 22&lt;/strong&gt; (SSH) para acesso remoto.&lt;/li&gt;&#xA;&lt;li&gt;Permitir entrada na &lt;strong&gt;porta 80&lt;/strong&gt; para acesso via navegador.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Clique em &lt;strong&gt;Executar Instância&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;💡 &lt;strong&gt;Após a criação, anote o IP da instância para testes.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
