@@ -1,2 +1,247 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><title>BitsInCloud</title>
-<meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content><meta name=generator content="Hugo 0.145.0"><meta name=robots content="index, follow"><link rel=stylesheet href=/bitsincloud-blog/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css><link href=/bitsincloud-blog/index.xml rel=alternate type=application/rss+xml title=BitsInCloud><link href=/bitsincloud-blog/index.xml rel=feed type=application/rss+xml title=BitsInCloud><link rel=canonical href=https://rogeriofontes.github.io/bitsincloud-blog/><meta property="og:url" content="https://rogeriofontes.github.io/bitsincloud-blog/"><meta property="og:site_name" content="BitsInCloud"><meta property="og:title" content="BitsInCloud"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta itemprop=name content="BitsInCloud"><meta itemprop=datePublished content="2025-03-09T20:14:52-03:00"><meta itemprop=dateModified content="2025-03-09T20:14:52-03:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="BitsInCloud"></head><body class="ma0 avenir bg-near-white production"><header><div class="pb3-m pb6-l bg-black"><nav class="pv3 ph3 ph4-ns" role=navigation><div class="flex-l justify-between items-center center"><a href=/bitsincloud-blog/ class="f3 fw2 hover-white no-underline white-90 dib">BitsInCloud</a><div class="flex-l items-center"><div class=ananke-socials></div></div></div></nav><div class="tc-l pv3 ph3 ph4-ns"><h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">BitsInCloud</h1></div></div></header><main class=pb7 role=main><article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></article><div class="pa3 pa4-ns w-100 w-70-ns center"><section class="w-100 mw8"><div class="relative w-100 mb4"><article class="bb b--black-10"><div class="db pv4 ph3 ph0-l no-underline dark-gray"><div class="flex flex-column flex-row-ns"><div class="blah w-100"><h1 class="f3 fw1 athelas mt0 lh-title"><a href=/bitsincloud-blog/posts/event-carried-state-transfer-ecst-vs-command-via-messaging/ class="color-inherit dim link">📦 Event-Carried State Transfer (ECST) vs Command via Messaging vs BFF</a></h1><div class="f6 f5-l lh-copy nested-copy-line-height nested-links"><p>Neste artigo, explico de forma prática e objetiva os padrões <strong>ECST</strong>, <strong>Command via Messaging</strong> e como eles se comparam ao tradicional <strong>BFF (Backend for Frontend)</strong> em uma arquitetura de microsserviços.</p><hr><h2 id=-1-event-carried-state-transfer-ecst>📘 1. Event-Carried State Transfer (ECST)</h2><h3 id=-definição-técnica>✅ Definição técnica</h3><blockquote><p>Event-Carried State Transfer é um padrão onde um serviço, ao modificar um dado (como criar ou atualizar um cliente), <strong>emite um evento contendo o estado completo da entidade</strong>. Outros serviços que precisem desses dados escutam esse evento e mantêm uma cópia local, garantindo <strong>consistência eventual</strong>.</p></div><a href=/bitsincloud-blog/posts/event-carried-state-transfer-ecst-vs-command-via-messaging/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a></div></div></div></article></div><div class="relative w-100 mb4"><article class="bb b--black-10"><div class="db pv4 ph3 ph0-l no-underline dark-gray"><div class="flex flex-column flex-row-ns"><div class="blah w-100"><h1 class="f3 fw1 athelas mt0 lh-title"><a href=/bitsincloud-blog/posts/ec2-fleet/ class="color-inherit dim link">Ec2 Fleet - Como Criar uma Frota de EC2 e fazer o escalonamento</a></h1><div class="f6 f5-l lh-copy nested-copy-line-height nested-links"><h2 id=introdução>Introdução</h2><p>Neste artigo, abordaremos como criar uma frota de instâncias EC2 na AWS, configurar snapshots automatizados, criar um Load Balancer para distribuir o tráfego e implementar Auto Scaling para aumentar ou reduzir a capacidade automaticamente com base na demanda.</p><hr><h2 id=1-criando-uma-instância-ec2>1️⃣ Criando uma Instância EC2</h2><ol><li>Acesse o <strong>Console AWS</strong> → <strong>EC2</strong>.</li><li>Clique em <strong>Executar Instância</strong>.</li><li>Escolha uma <strong>Amazon Machine Image (AMI)</strong>, como <strong>Amazon Linux 2</strong> ou <strong>Ubuntu</strong>.</li><li>Selecione um <strong>tipo de instância</strong> (exemplo: <code>t2.micro</code> para o Free Tier).</li><li>Configure a <strong>rede e o Security Group</strong>:<ul><li>Permitir entrada na <strong>porta 22</strong> (SSH) para acesso remoto.</li><li>Permitir entrada na <strong>porta 80</strong> para acesso via navegador.</li></ul></li><li>Clique em <strong>Executar Instância</strong>.</li></ol><p>💡 <strong>Após a criação, anote o IP da instância para testes.</strong></p></div><a href=/bitsincloud-blog/posts/ec2-fleet/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a></div></div></div></article></div><div class="relative w-100 mb4"><article class="bb b--black-10"><div class="db pv4 ph3 ph0-l no-underline dark-gray"><div class="flex flex-column flex-row-ns"><div class="blah w-100"><h1 class="f3 fw1 athelas mt0 lh-title"><a href=/bitsincloud-blog/posts/meu-primeiro-post/ class="color-inherit dim link">Bem Vindo ao Meu Blog</a></h1><div class="f6 f5-l lh-copy nested-copy-line-height nested-links"><p>Olá! Este é o meu primeiro post no blog, e estou muito animado para compartilhar conteúdo sobre <strong>tecnologia, programação e diversos outros temas</strong>.</p><h2 id=-o-que-você-pode-esperar-daqui>🚀 O que você pode esperar daqui?</h2><p>Neste blog, pretendo publicar conteúdos sobre:</p><ul><li>Desenvolvimento Web (Next.js, React, Spring Boot, Go e dentre outras coisas)</li><li>Arquitetura de Software e boas práticas</li><li>Segurança da Informação e DevSecOps</li><li>Cloud Computing (AWS, GCP, Azure)</li><li>Estudos e certificações em TI</li><li>Curiosidades e desafios técnicos</li></ul><h2 id=-vamos-interagir>🤝 Vamos interagir!</h2><p>Se tiver sugestões de temas ou quiser trocar ideias, fique à vontade para comentar ou entrar em contato.</p></div><a href=/bitsincloud-blog/posts/meu-primeiro-post/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a></div></div></div></article></div></section></div></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://rogeriofontes.github.io/bitsincloud-blog/>&copy; BitsInCloud 2025</a><div><div class=ananke-socials></div></div></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/bitsincloud-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=bitsincloud-blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>BitsInCloud</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.145.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/bitsincloud-blog/ananke/css/main.min.css" >
+
+
+
+
+    
+
+    
+      
+
+    
+
+    
+    
+      <link href="/bitsincloud-blog/index.xml" rel="alternate" type="application/rss+xml" title="BitsInCloud" />
+      <link href="/bitsincloud-blog/index.xml" rel="feed" type="application/rss+xml" title="BitsInCloud" />
+      
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/bitsincloud-blog/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/bitsincloud-blog/">
+  <meta property="og:site_name" content="BitsInCloud">
+  <meta property="og:title" content="BitsInCloud">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="BitsInCloud">
+  <meta itemprop="datePublished" content="2025-05-09T13:14:52-03:00">
+  <meta itemprop="dateModified" content="2025-05-09T13:14:52-03:00">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="BitsInCloud">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/bitsincloud-blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        BitsInCloud
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          BitsInCloud
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+    
+  </article>
+
+  
+  
+  
+  
+  
+
+  
+    <div class="pa3 pa4-ns w-100 w-70-ns center">
+      
+
+      <section class="w-100 mw8">
+        
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/bitsincloud-blog/posts/mapeamento-dto-arquitetura-em-camadas/" class="color-inherit dim link">
+            Melhor local para mapeamento DTO
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <h1></h1>
+<p><strong>Autor: Rogério Fontes</strong><br>
+<strong>Tema: Arquitetura em Camadas | Boas Práticas | Design Clean</strong></p>
+<hr>
+<h2 id="-introdução">🔥 Introdução</h2>
+<p>Ao desenvolver APIs REST seguindo a <strong>arquitetura em camadas (Layered Architecture)</strong>, surge uma dúvida comum:</p>
+<p><strong>Devo fazer o mapeamento entre DTOs e as entidades de domínio no Controller ou no Service?</strong></p>
+<p>Essa é uma decisão importante que impacta:</p>
+<ul>
+<li>A clareza do código.</li>
+<li>O acoplamento entre camadas.</li>
+<li>A escalabilidade futura.</li>
+</ul>
+<p>Vamos analisar as opções e as melhores práticas.</p>
+        </div>
+        <a href="/bitsincloud-blog/posts/mapeamento-dto-arquitetura-em-camadas/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/bitsincloud-blog/posts/onde-colocar-mapeamento-dto-arquitetura-hexagonal/" class="color-inherit dim link">
+            Melhor local para mapeamento DTO
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p><strong>Autor: Rogério Fontes</strong><br>
+<strong>Tema: Arquitetura Hexagonal | Boas Práticas | Design Clean</strong></p>
+<hr>
+<h2 id="-introdução">🔥 Introdução</h2>
+<p>Quando estamos desenvolvendo aplicações seguindo a <strong>Arquitetura Hexagonal (Ports &amp; Adapters)</strong>, uma dúvida muito comum surge:</p>
+<p><strong>Onde devo colocar o mapeamento entre DTOs e as entidades do domínio? No Controller? No Service? Em outro lugar?</strong></p>
+<p>Neste artigo, vamos responder essa pergunta com exemplos práticos e boas práticas adotadas no mercado.</p>
+<hr>
+<h2 id="-revisando-rapidamente-o-que-é-dto">🔎 Revisando rapidamente: o que é DTO?</h2>
+<p><strong>DTO (Data Transfer Object)</strong> é um objeto usado para:</p>
+        </div>
+        <a href="/bitsincloud-blog/posts/onde-colocar-mapeamento-dto-arquitetura-hexagonal/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/bitsincloud-blog/posts/cloud-day-triangulo-esg/" class="color-inherit dim link">
+            CloudDay Triângulo reforça os princípios de ESG
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <h2 id="-introdução">🌱 Introdução</h2>
+<p>O <strong>CloudDay Triângulo</strong> é mais do que um evento de tecnologia — é uma iniciativa que se conecta diretamente com os princípios de <strong>ESG (Environmental, Social and Governance)</strong>.</p>
+<p>Ao apoiar o evento, os patrocinadores estão investindo não apenas em inovação, mas também em ações que geram impacto social e ambiental positivo na região.</p>
+<hr>
+<h2 id="-conexão-com-o-pilar-environmental-meio-ambiente">🌍 Conexão com o pilar Environmental (Meio Ambiente)</h2>
+<p>Durante o CloudDay, muitos conteúdos abordam <strong>tecnologias sustentáveis</strong>, como <strong>otimização de recursos na nuvem</strong>, <strong>computação eficiente</strong> e <strong>redução da pegada de carbono</strong>.<br>
+A nuvem, por si só, já é uma aliada das empresas que buscam reduzir consumo de energia e maximizar o uso de infraestrutura compartilhada.</p>
+        </div>
+        <a href="/bitsincloud-blog/posts/cloud-day-triangulo-esg/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+      </section>
+
+      
+        <section class="w-100">
+          <h1 class="f3">More</h1>
+          
+          
+            <h2 class="f5 fw4 mb4 dib mr3">
+              <a href="/bitsincloud-blog/posts/event-carried-state-transfer-ecst-vs-command-via-messaging/" class="link black dim">
+                📦 Event-Carried State Transfer (ECST) vs Command via Messaging vs BFF
+              </a>
+            </h2>
+          
+            <h2 class="f5 fw4 mb4 dib mr3">
+              <a href="/bitsincloud-blog/posts/ec2-fleet/" class="link black dim">
+                Ec2 Fleet - Como Criar uma Frota de EC2 e fazer o escalonamento
+              </a>
+            </h2>
+          
+            <h2 class="f5 fw4 mb4 dib mr3">
+              <a href="/bitsincloud-blog/posts/meu-primeiro-post/" class="link black dim">
+                Bem Vindo ao Meu Blog
+              </a>
+            </h2>
+          
+        </section>
+      
+
+    </div>
+  
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/bitsincloud-blog/" >
+    &copy;  BitsInCloud 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

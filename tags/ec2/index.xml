@@ -1,23 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EC2 on BitsInCloud</title><link>https://rogeriofontes.github.io/bitsincloud-blog/tags/ec2/</link><description>Recent content in EC2 on BitsInCloud</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 09 Mar 2025 20:14:52 -0300</lastBuildDate><atom:link href="https://rogeriofontes.github.io/bitsincloud-blog/tags/ec2/index.xml" rel="self" type="application/rss+xml"/><item><title>📦 Event-Carried State Transfer (ECST) vs Command via Messaging vs BFF</title><link>https://rogeriofontes.github.io/bitsincloud-blog/posts/event-carried-state-transfer-ecst-vs-command-via-messaging/</link><pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/posts/event-carried-state-transfer-ecst-vs-command-via-messaging/</guid><description>&lt;p>Neste artigo, explico de forma prática e objetiva os padrões &lt;strong>ECST&lt;/strong>, &lt;strong>Command via Messaging&lt;/strong> e como eles se comparam ao tradicional &lt;strong>BFF (Backend for Frontend)&lt;/strong> em uma arquitetura de microsserviços.&lt;/p>
-&lt;hr>
-&lt;h2 id="-1-event-carried-state-transfer-ecst">📘 1. Event-Carried State Transfer (ECST)&lt;/h2>
-&lt;h3 id="-definição-técnica">✅ Definição técnica&lt;/h3>
-&lt;blockquote>
-&lt;p>Event-Carried State Transfer é um padrão onde um serviço, ao modificar um dado (como criar ou atualizar um cliente), &lt;strong>emite um evento contendo o estado completo da entidade&lt;/strong>. Outros serviços que precisem desses dados escutam esse evento e mantêm uma cópia local, garantindo &lt;strong>consistência eventual&lt;/strong>.&lt;/p></description></item><item><title>Ec2 Fleet - Como Criar uma Frota de EC2 e fazer o escalonamento</title><link>https://rogeriofontes.github.io/bitsincloud-blog/posts/ec2-fleet/</link><pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/posts/ec2-fleet/</guid><description>&lt;h2 id="introdução">Introdução&lt;/h2>
-&lt;p>Neste artigo, abordaremos como criar uma frota de instâncias EC2 na AWS, configurar snapshots automatizados, criar um Load Balancer para distribuir o tráfego e implementar Auto Scaling para aumentar ou reduzir a capacidade automaticamente com base na demanda.&lt;/p>
-&lt;hr>
-&lt;h2 id="1-criando-uma-instância-ec2">1️⃣ Criando uma Instância EC2&lt;/h2>
-&lt;ol>
-&lt;li>Acesse o &lt;strong>Console AWS&lt;/strong> → &lt;strong>EC2&lt;/strong>.&lt;/li>
-&lt;li>Clique em &lt;strong>Executar Instância&lt;/strong>.&lt;/li>
-&lt;li>Escolha uma &lt;strong>Amazon Machine Image (AMI)&lt;/strong>, como &lt;strong>Amazon Linux 2&lt;/strong> ou &lt;strong>Ubuntu&lt;/strong>.&lt;/li>
-&lt;li>Selecione um &lt;strong>tipo de instância&lt;/strong> (exemplo: &lt;code>t2.micro&lt;/code> para o Free Tier).&lt;/li>
-&lt;li>Configure a &lt;strong>rede e o Security Group&lt;/strong>:
-&lt;ul>
-&lt;li>Permitir entrada na &lt;strong>porta 22&lt;/strong> (SSH) para acesso remoto.&lt;/li>
-&lt;li>Permitir entrada na &lt;strong>porta 80&lt;/strong> para acesso via navegador.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Clique em &lt;strong>Executar Instância&lt;/strong>.&lt;/li>
-&lt;/ol>
-&lt;p>💡 &lt;strong>Após a criação, anote o IP da instância para testes.&lt;/strong>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EC2 on BitsInCloud</title>
+    <link>http://localhost:1313/bitsincloud-blog/tags/ec2/</link>
+    <description>Recent content in EC2 on BitsInCloud</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Mar 2025 22:14:52 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/bitsincloud-blog/tags/ec2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CloudDay Triângulo reforça os princípios de ESG</title>
+      <link>http://localhost:1313/bitsincloud-blog/posts/cloud-day-triangulo-esg/</link>
+      <pubDate>Tue, 18 Mar 2025 22:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/posts/cloud-day-triangulo-esg/</guid>
+      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Neste artigo, abordaremos como criar uma frota de instâncias EC2 na AWS, configurar snapshots automatizados, criar um Load Balancer para distribuir o tráfego e implementar Auto Scaling para aumentar ou reduzir a capacidade automaticamente com base na demanda.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-criando-uma-instância-ec2&#34;&gt;1️⃣ Criando uma Instância EC2&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Acesse o &lt;strong&gt;Console AWS&lt;/strong&gt; → &lt;strong&gt;EC2&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Clique em &lt;strong&gt;Executar Instância&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Escolha uma &lt;strong&gt;Amazon Machine Image (AMI)&lt;/strong&gt;, como &lt;strong&gt;Amazon Linux 2&lt;/strong&gt; ou &lt;strong&gt;Ubuntu&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Selecione um &lt;strong&gt;tipo de instância&lt;/strong&gt; (exemplo: &lt;code&gt;t2.micro&lt;/code&gt; para o Free Tier).&lt;/li&gt;&#xA;&lt;li&gt;Configure a &lt;strong&gt;rede e o Security Group&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Permitir entrada na &lt;strong&gt;porta 22&lt;/strong&gt; (SSH) para acesso remoto.&lt;/li&gt;&#xA;&lt;li&gt;Permitir entrada na &lt;strong&gt;porta 80&lt;/strong&gt; para acesso via navegador.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Clique em &lt;strong&gt;Executar Instância&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;💡 &lt;strong&gt;Após a criação, anote o IP da instância para testes.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>📦 Event-Carried State Transfer (ECST) vs Command via Messaging vs BFF</title>
+      <link>http://localhost:1313/bitsincloud-blog/posts/event-carried-state-transfer-ecst-vs-command-via-messaging/</link>
+      <pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/posts/event-carried-state-transfer-ecst-vs-command-via-messaging/</guid>
+      <description>&lt;p&gt;Neste artigo, explico de forma prática e objetiva os padrões &lt;strong&gt;ECST&lt;/strong&gt;, &lt;strong&gt;Command via Messaging&lt;/strong&gt; e como eles se comparam ao tradicional &lt;strong&gt;BFF (Backend for Frontend)&lt;/strong&gt; em uma arquitetura de microsserviços.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-1-event-carried-state-transfer-ecst&#34;&gt;📘 1. Event-Carried State Transfer (ECST)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-definição-técnica&#34;&gt;✅ Definição técnica&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Event-Carried State Transfer é um padrão onde um serviço, ao modificar um dado (como criar ou atualizar um cliente), &lt;strong&gt;emite um evento contendo o estado completo da entidade&lt;/strong&gt;. Outros serviços que precisem desses dados escutam esse evento e mantêm uma cópia local, garantindo &lt;strong&gt;consistência eventual&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ec2 Fleet - Como Criar uma Frota de EC2 e fazer o escalonamento</title>
+      <link>http://localhost:1313/bitsincloud-blog/posts/ec2-fleet/</link>
+      <pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/posts/ec2-fleet/</guid>
+      <description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Neste artigo, abordaremos como criar uma frota de instâncias EC2 na AWS, configurar snapshots automatizados, criar um Load Balancer para distribuir o tráfego e implementar Auto Scaling para aumentar ou reduzir a capacidade automaticamente com base na demanda.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-criando-uma-instância-ec2&#34;&gt;1️⃣ Criando uma Instância EC2&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Acesse o &lt;strong&gt;Console AWS&lt;/strong&gt; → &lt;strong&gt;EC2&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Clique em &lt;strong&gt;Executar Instância&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Escolha uma &lt;strong&gt;Amazon Machine Image (AMI)&lt;/strong&gt;, como &lt;strong&gt;Amazon Linux 2&lt;/strong&gt; ou &lt;strong&gt;Ubuntu&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Selecione um &lt;strong&gt;tipo de instância&lt;/strong&gt; (exemplo: &lt;code&gt;t2.micro&lt;/code&gt; para o Free Tier).&lt;/li&gt;&#xA;&lt;li&gt;Configure a &lt;strong&gt;rede e o Security Group&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Permitir entrada na &lt;strong&gt;porta 22&lt;/strong&gt; (SSH) para acesso remoto.&lt;/li&gt;&#xA;&lt;li&gt;Permitir entrada na &lt;strong&gt;porta 80&lt;/strong&gt; para acesso via navegador.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Clique em &lt;strong&gt;Executar Instância&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;💡 &lt;strong&gt;Após a criação, anote o IP da instância para testes.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

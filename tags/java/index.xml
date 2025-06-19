@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAVA on BitsInCloud</title>
+    <link>http://localhost:1313/bitsincloud-blog/tags/java/</link>
+    <description>Recent content in JAVA on BitsInCloud</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2025 13:14:52 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/bitsincloud-blog/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Melhor local para mapeamento DTO</title>
+      <link>http://localhost:1313/bitsincloud-blog/posts/mapeamento-dto-arquitetura-em-camadas/</link>
+      <pubDate>Fri, 09 May 2025 13:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/posts/mapeamento-dto-arquitetura-em-camadas/</guid>
+      <description>&lt;h1&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Autor: Rogério Fontes&lt;/strong&gt;&lt;br&gt;&#xA;&lt;strong&gt;Tema: Arquitetura em Camadas | Boas Práticas | Design Clean&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-introdução&#34;&gt;🔥 Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Ao desenvolver APIs REST seguindo a &lt;strong&gt;arquitetura em camadas (Layered Architecture)&lt;/strong&gt;, surge uma dúvida comum:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Devo fazer o mapeamento entre DTOs e as entidades de domínio no Controller ou no Service?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Essa é uma decisão importante que impacta:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A clareza do código.&lt;/li&gt;&#xA;&lt;li&gt;O acoplamento entre camadas.&lt;/li&gt;&#xA;&lt;li&gt;A escalabilidade futura.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Vamos analisar as opções e as melhores práticas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Melhor local para mapeamento DTO</title>
+      <link>http://localhost:1313/bitsincloud-blog/posts/onde-colocar-mapeamento-dto-arquitetura-hexagonal/</link>
+      <pubDate>Fri, 09 May 2025 13:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/posts/onde-colocar-mapeamento-dto-arquitetura-hexagonal/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Autor: Rogério Fontes&lt;/strong&gt;&lt;br&gt;&#xA;&lt;strong&gt;Tema: Arquitetura Hexagonal | Boas Práticas | Design Clean&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-introdução&#34;&gt;🔥 Introdução&lt;/h2&gt;&#xA;&lt;p&gt;Quando estamos desenvolvendo aplicações seguindo a &lt;strong&gt;Arquitetura Hexagonal (Ports &amp;amp; Adapters)&lt;/strong&gt;, uma dúvida muito comum surge:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Onde devo colocar o mapeamento entre DTOs e as entidades do domínio? No Controller? No Service? Em outro lugar?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Neste artigo, vamos responder essa pergunta com exemplos práticos e boas práticas adotadas no mercado.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-revisando-rapidamente-o-que-é-dto&#34;&gt;🔎 Revisando rapidamente: o que é DTO?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;DTO (Data Transfer Object)&lt;/strong&gt; é um objeto usado para:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introdução on BitsInCloud</title><link>https://rogeriofontes.github.io/bitsincloud-blog/tags/introdu%C3%A7%C3%A3o/</link><description>Recent content in Introdução on BitsInCloud</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 09 Mar 2025 20:03:57 -0300</lastBuildDate><atom:link href="https://rogeriofontes.github.io/bitsincloud-blog/tags/introdu%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml"/><item><title>Bem Vindo ao Meu Blog</title><link>https://rogeriofontes.github.io/bitsincloud-blog/posts/meu-primeiro-post/</link><pubDate>Sun, 09 Mar 2025 20:03:57 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/posts/meu-primeiro-post/</guid><description>&lt;p>Olá! Este é o meu primeiro post no blog, e estou muito animado para compartilhar conteúdo sobre &lt;strong>tecnologia, programação e diversos outros temas&lt;/strong>.&lt;/p>
-&lt;h2 id="-o-que-você-pode-esperar-daqui">🚀 O que você pode esperar daqui?&lt;/h2>
-&lt;p>Neste blog, pretendo publicar conteúdos sobre:&lt;/p>
-&lt;ul>
-&lt;li>Desenvolvimento Web (Next.js, React, Spring Boot, Go e dentre outras coisas)&lt;/li>
-&lt;li>Arquitetura de Software e boas práticas&lt;/li>
-&lt;li>Segurança da Informação e DevSecOps&lt;/li>
-&lt;li>Cloud Computing (AWS, GCP, Azure)&lt;/li>
-&lt;li>Estudos e certificações em TI&lt;/li>
-&lt;li>Curiosidades e desafios técnicos&lt;/li>
-&lt;/ul>
-&lt;h2 id="-vamos-interagir">🤝 Vamos interagir!&lt;/h2>
-&lt;p>Se tiver sugestões de temas ou quiser trocar ideias, fique à vontade para comentar ou entrar em contato.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introdução on BitsInCloud</title>
+    <link>http://localhost:1313/bitsincloud-blog/tags/introdu%C3%A7%C3%A3o/</link>
+    <description>Recent content in Introdução on BitsInCloud</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Mar 2025 20:03:57 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/bitsincloud-blog/tags/introdu%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bem Vindo ao Meu Blog</title>
+      <link>http://localhost:1313/bitsincloud-blog/posts/meu-primeiro-post/</link>
+      <pubDate>Sun, 09 Mar 2025 20:03:57 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/posts/meu-primeiro-post/</guid>
+      <description>&lt;p&gt;Olá! Este é o meu primeiro post no blog, e estou muito animado para compartilhar conteúdo sobre &lt;strong&gt;tecnologia, programação e diversos outros temas&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-o-que-você-pode-esperar-daqui&#34;&gt;🚀 O que você pode esperar daqui?&lt;/h2&gt;&#xA;&lt;p&gt;Neste blog, pretendo publicar conteúdos sobre:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Desenvolvimento Web (Next.js, React, Spring Boot, Go e dentre outras coisas)&lt;/li&gt;&#xA;&lt;li&gt;Arquitetura de Software e boas práticas&lt;/li&gt;&#xA;&lt;li&gt;Segurança da Informação e DevSecOps&lt;/li&gt;&#xA;&lt;li&gt;Cloud Computing (AWS, GCP, Azure)&lt;/li&gt;&#xA;&lt;li&gt;Estudos e certificações em TI&lt;/li&gt;&#xA;&lt;li&gt;Curiosidades e desafios técnicos&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-vamos-interagir&#34;&gt;🤝 Vamos interagir!&lt;/h2&gt;&#xA;&lt;p&gt;Se tiver sugestões de temas ou quiser trocar ideias, fique à vontade para comentar ou entrar em contato.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

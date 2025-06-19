@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on BitsInCloud</title><link>https://rogeriofontes.github.io/bitsincloud-blog/categories/</link><description>Recent content in Categories on BitsInCloud</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 09 Mar 2025 20:14:52 -0300</lastBuildDate><atom:link href="https://rogeriofontes.github.io/bitsincloud-blog/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>AWS</title><link>https://rogeriofontes.github.io/bitsincloud-blog/categories/aws/</link><pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/categories/aws/</guid><description/></item><item><title>Geral</title><link>https://rogeriofontes.github.io/bitsincloud-blog/categories/geral/</link><pubDate>Sun, 09 Mar 2025 20:03:57 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/categories/geral/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on BitsInCloud</title>
+    <link>http://localhost:1313/bitsincloud-blog/categories/</link>
+    <description>Recent content in Categories on BitsInCloud</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2025 13:14:52 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/bitsincloud-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SYSTEM-DESIGN</title>
+      <link>http://localhost:1313/bitsincloud-blog/categories/system-design/</link>
+      <pubDate>Fri, 09 May 2025 13:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/categories/system-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS</title>
+      <link>http://localhost:1313/bitsincloud-blog/categories/aws/</link>
+      <pubDate>Tue, 18 Mar 2025 22:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/categories/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geral</title>
+      <link>http://localhost:1313/bitsincloud-blog/categories/geral/</link>
+      <pubDate>Sun, 09 Mar 2025 20:03:57 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/categories/geral/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

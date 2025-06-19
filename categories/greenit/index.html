@@ -30,26 +30,26 @@
 
     
     
-      <link href="/bitsincloud-blog/tags/ec2/index.xml" rel="alternate" type="application/rss+xml" title="BitsInCloud" />
-      <link href="/bitsincloud-blog/tags/ec2/index.xml" rel="feed" type="application/rss+xml" title="BitsInCloud" />
+      <link href="/bitsincloud-blog/categories/greenit/index.xml" rel="alternate" type="application/rss+xml" title="BitsInCloud" />
+      <link href="/bitsincloud-blog/categories/greenit/index.xml" rel="feed" type="application/rss+xml" title="BitsInCloud" />
       
     
 
     
-      <link rel="canonical" href="http://localhost:1313/bitsincloud-blog/tags/ec2/">
+      <link rel="canonical" href="http://localhost:1313/bitsincloud-blog/categories/greenit/">
     
 
-    <meta property="og:url" content="http://localhost:1313/bitsincloud-blog/tags/ec2/">
+    <meta property="og:url" content="http://localhost:1313/bitsincloud-blog/categories/greenit/">
   <meta property="og:site_name" content="BitsInCloud">
-  <meta property="og:title" content="EC2">
+  <meta property="og:title" content="GREENIT">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
-  <meta itemprop="name" content="EC2">
+  <meta itemprop="name" content="GREENIT">
   <meta itemprop="datePublished" content="2025-03-18T22:14:52-03:00">
   <meta itemprop="dateModified" content="2025-03-18T22:14:52-03:00">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="EC2">
+  <meta name="twitter:title" content="GREENIT">
 
 	
   </head><body class="ma0 avenir bg-near-white development">
@@ -77,7 +77,7 @@
 
       <div class="tc-l pv3 ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          EC2
+          GREENIT
         </h1>
         
       </div>
@@ -89,7 +89,7 @@
       
   <article class="cf pa3 pa4-m pa4-l">
     <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links mid-gray">
-      <p>Below you will find pages that utilize the taxonomy term “EC2”</p>
+      <p>Below you will find pages that utilize the taxonomy term “GREENIT”</p>
     </div>
   </article>
   <div class="mw8 center">
@@ -125,64 +125,6 @@
 <p>💡 <strong>Após a criação, anote o IP da instância para testes.</strong></p>
     </div>
     <a href="/bitsincloud-blog/posts/cloud-day-triangulo-esg/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-  </div>
-</div>
-
-        </div>
-      
-        <div class="relative w-100  mb4 bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="/bitsincloud-blog/posts/event-carried-state-transfer-ecst-vs-command-via-messaging/" class="link black dim">
-        📦 Event-Carried State Transfer (ECST) vs Command via Messaging vs BFF
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>Neste artigo, explico de forma prática e objetiva os padrões <strong>ECST</strong>, <strong>Command via Messaging</strong> e como eles se comparam ao tradicional <strong>BFF (Backend for Frontend)</strong> em uma arquitetura de microsserviços.</p>
-<hr>
-<h2 id="-1-event-carried-state-transfer-ecst">📘 1. Event-Carried State Transfer (ECST)</h2>
-<h3 id="-definição-técnica">✅ Definição técnica</h3>
-<blockquote>
-<p>Event-Carried State Transfer é um padrão onde um serviço, ao modificar um dado (como criar ou atualizar um cliente), <strong>emite um evento contendo o estado completo da entidade</strong>. Outros serviços que precisem desses dados escutam esse evento e mantêm uma cópia local, garantindo <strong>consistência eventual</strong>.</p>
-    </div>
-    <a href="/bitsincloud-blog/posts/event-carried-state-transfer-ecst-vs-command-via-messaging/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-  </div>
-</div>
-
-        </div>
-      
-        <div class="relative w-100  mb4 bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="/bitsincloud-blog/posts/ec2-fleet/" class="link black dim">
-        Ec2 Fleet - Como Criar uma Frota de EC2 e fazer o escalonamento
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <h2 id="introdução">Introdução</h2>
-<p>Neste artigo, abordaremos como criar uma frota de instâncias EC2 na AWS, configurar snapshots automatizados, criar um Load Balancer para distribuir o tráfego e implementar Auto Scaling para aumentar ou reduzir a capacidade automaticamente com base na demanda.</p>
-<hr>
-<h2 id="1-criando-uma-instância-ec2">1️⃣ Criando uma Instância EC2</h2>
-<ol>
-<li>Acesse o <strong>Console AWS</strong> → <strong>EC2</strong>.</li>
-<li>Clique em <strong>Executar Instância</strong>.</li>
-<li>Escolha uma <strong>Amazon Machine Image (AMI)</strong>, como <strong>Amazon Linux 2</strong> ou <strong>Ubuntu</strong>.</li>
-<li>Selecione um <strong>tipo de instância</strong> (exemplo: <code>t2.micro</code> para o Free Tier).</li>
-<li>Configure a <strong>rede e o Security Group</strong>:
-<ul>
-<li>Permitir entrada na <strong>porta 22</strong> (SSH) para acesso remoto.</li>
-<li>Permitir entrada na <strong>porta 80</strong> para acesso via navegador.</li>
-</ul>
-</li>
-<li>Clique em <strong>Executar Instância</strong>.</li>
-</ol>
-<p>💡 <strong>Após a criação, anote o IP da instância para testes.</strong></p>
-    </div>
-    <a href="/bitsincloud-blog/posts/ec2-fleet/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 

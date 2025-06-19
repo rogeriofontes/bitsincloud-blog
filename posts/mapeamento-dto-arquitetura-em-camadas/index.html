@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/bitsincloud-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=bitsincloud-blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Melhor local para mapeamento DTO | BitsInCloud</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Melhor local para mapeamento DTO ↔ Domain na arquitetura em camadas: Service ou Controller?">
+    <meta name="generator" content="Hugo 0.145.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/bitsincloud-blog/ananke/css/main.min.css" >
+
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/bitsincloud-blog/posts/mapeamento-dto-arquitetura-em-camadas/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/bitsincloud-blog/posts/mapeamento-dto-arquitetura-em-camadas/">
+  <meta property="og:site_name" content="BitsInCloud">
+  <meta property="og:title" content="Melhor local para mapeamento DTO">
+  <meta property="og:description" content="Melhor local para mapeamento DTO ↔ Domain na arquitetura em camadas: Service ou Controller?">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-09T13:14:52-03:00">
+    <meta property="article:modified_time" content="2025-05-09T13:14:52-03:00">
+    <meta property="article:tag" content="DTO">
+    <meta property="article:tag" content="JAVA">
+    <meta property="article:tag" content="SPRING">
+    <meta property="article:tag" content="PADRÔES">
+
+  <meta itemprop="name" content="Melhor local para mapeamento DTO">
+  <meta itemprop="description" content="Melhor local para mapeamento DTO ↔ Domain na arquitetura em camadas: Service ou Controller?">
+  <meta itemprop="datePublished" content="2025-05-09T13:14:52-03:00">
+  <meta itemprop="dateModified" content="2025-05-09T13:14:52-03:00">
+  <meta itemprop="wordCount" content="477">
+  <meta itemprop="keywords" content="DTO,JAVA,SPRING,PADRÔES">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Melhor local para mapeamento DTO">
+  <meta name="twitter:description" content="Melhor local para mapeamento DTO ↔ Domain na arquitetura em camadas: Service ou Controller?">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/bitsincloud-blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        BitsInCloud
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Melhor local para mapeamento DTO</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-05-09T13:14:52-03:00">May 9, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1></h1>
+<p><strong>Autor: Rogério Fontes</strong><br>
+<strong>Tema: Arquitetura em Camadas | Boas Práticas | Design Clean</strong></p>
+<hr>
+<h2 id="-introdução">🔥 Introdução</h2>
+<p>Ao desenvolver APIs REST seguindo a <strong>arquitetura em camadas (Layered Architecture)</strong>, surge uma dúvida comum:</p>
+<p><strong>Devo fazer o mapeamento entre DTOs e as entidades de domínio no Controller ou no Service?</strong></p>
+<p>Essa é uma decisão importante que impacta:</p>
+<ul>
+<li>A clareza do código.</li>
+<li>O acoplamento entre camadas.</li>
+<li>A escalabilidade futura.</li>
+</ul>
+<p>Vamos analisar as opções e as melhores práticas.</p>
+<hr>
+<h2 id="-revisando-rapidamente-arquitetura-em-camadas">🏛 Revisando rapidamente: arquitetura em camadas</h2>
+<p>A clássica arquitetura em camadas divide a aplicação em:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Camada</th>
+          <th>Responsabilidade</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Controller (Web/API)</td>
+          <td>Recebe requisições e retorna respostas.</td>
+      </tr>
+      <tr>
+          <td>Service</td>
+          <td>Contém regras de negócio e orquestra operações.</td>
+      </tr>
+      <tr>
+          <td>Repository</td>
+          <td>Acesso a dados persistentes.</td>
+      </tr>
+      <tr>
+          <td>Domain</td>
+          <td>Entidades e lógica de negócio.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Cada camada deve ter responsabilidades bem definidas para manter a separação de preocupações.</p>
+<hr>
+<h2 id="-onde-realizar-o-mapeamento-dto--domain">❓ Onde realizar o mapeamento DTO ↔ Domain?</h2>
+<h3 id="opção-1-no-controller-recomendado-">Opção 1️⃣: No Controller (<strong>Recomendado ✅</strong>)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Employee employee <span style="color:#f92672">=</span> employeeMapper.<span style="color:#a6e22e">toDomain</span>(dto);
+</span></span><span style="display:flex;"><span>Employee saved <span style="color:#f92672">=</span> employeeService.<span style="color:#a6e22e">create</span>(employee);
+</span></span></code></pre></div><p><strong>Vantagens</strong>:</p>
+<ul>
+<li>O Service fica isolado do mundo externo (não conhece DTOs).</li>
+<li>Facilidade de manutenção.</li>
+<li>Alinhado ao princípio de inversão de dependência (DIP).</li>
+</ul>
+<p><strong>Quando usar</strong>:</p>
+<ul>
+<li>Quando o Service precisa trabalhar exclusivamente com entidades do domínio.</li>
+<li>Quando a lógica de mapeamento é simples ou pode ser reutilizada pelo Controller.</li>
+</ul>
+<hr>
+<h3 id="opção-2-no-service-aceitável-em-casos-específicos-">Opção 2️⃣: No Service (<strong>Aceitável em casos específicos ⚠</strong>)</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Employee saved <span style="color:#f92672">=</span> employeeService.<span style="color:#a6e22e">create</span>(dto);
+</span></span></code></pre></div><p><strong>Vantagens</strong>:</p>
+<ul>
+<li>Reduz código repetitivo no Controller (especialmente em CRUD simples).</li>
+<li>Útil em cenários onde o Service é considerado um &ldquo;application service&rdquo; voltado para APIs.</li>
+</ul>
+<p><strong>Desvantagens</strong>:</p>
+<ul>
+<li>O Service passa a conhecer o DTO.</li>
+<li>Quebra parcial da separação entre as camadas.</li>
+<li>Se o DTO mudar, o Service pode precisar ser alterado.</li>
+</ul>
+<p><strong>Quando é aceitável</strong>:</p>
+<ul>
+<li>Em aplicações simples ou monolitos com pouca complexidade.</li>
+<li>Quando os DTOs são estáveis e controlados pela mesma equipe que mantém o Service.</li>
+</ul>
+<hr>
+<h2 id="-boas-práticas-de-mercado">✅ Boas práticas de mercado</h2>
+<p><strong>Padrão em projetos profissionais</strong>:</p>
+<ul>
+<li>Controller → Recebe DTO, converte para domínio.</li>
+<li>Service → Recebe e trabalha com entidades de domínio.</li>
+<li>Repository → Trabalha com entidades do domínio ou projeções.</li>
+</ul>
+<p><strong>Frameworks como Spring, Micronaut e Jakarta EE seguem e recomendam essa separação.</strong></p>
+<hr>
+<h2 id="-exemplo-correto">✅ Exemplo correto</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@PostMapping</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> ResponseEntity<span style="color:#f92672">&lt;</span>EmployeeResponseDTO<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">create</span>(<span style="color:#a6e22e">@RequestBody</span> EmployeeRequestDTO dto) {
+</span></span><span style="display:flex;"><span>    Employee employee <span style="color:#f92672">=</span> employeeMapper.<span style="color:#a6e22e">toDomain</span>(dto);
+</span></span><span style="display:flex;"><span>    Employee created <span style="color:#f92672">=</span> employeeService.<span style="color:#a6e22e">create</span>(employee);
+</span></span><span style="display:flex;"><span>    EmployeeResponseDTO response <span style="color:#f92672">=</span> employeeMapper.<span style="color:#a6e22e">toResponse</span>(created);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> ResponseEntity.<span style="color:#a6e22e">ok</span>(response);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h2 id="-resumo">🚀 Resumo</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Onde colocar o mapeamento DTO ↔ Domain?</th>
+          <th>Melhor opção</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Controller</td>
+          <td>✅ Sim (recomendado)</td>
+      </tr>
+      <tr>
+          <td>Service</td>
+          <td>⚠ Aceitável em casos simples, mas com ressalvas</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Regra geral</strong>:</p>
+<blockquote>
+<p>Controllers lidam com contratos externos (DTOs).<br>
+Services lidam com regras de negócio (Domínio).</p></blockquote>
+<hr>
+<h2 id="-conclusão">📝 Conclusão</h2>
+<p>Para manter uma arquitetura limpa e de fácil manutenção:</p>
+<ul>
+<li>Prefira realizar o mapeamento no Controller.</li>
+<li>Evite acoplar os Services a contratos externos como DTOs.</li>
+<li>Em casos específicos e controlados, o mapeamento no Service pode ser considerado, mas com consciência dos trade-offs.</li>
+</ul>
+<p><strong>A boa separação de responsabilidades é o primeiro passo para sistemas escaláveis e sustentáveis.</strong></p>
+<hr>
+<h2 id="-sobre-o-autor">📌 Sobre o autor</h2>
+<p><strong>Rogério Fontes</strong><br>
+Arquiteto de Software | Especialista em Java, Go e Microsserviços | Criador de conteúdos sobre Arquitetura, Clean Code e DevOps.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/bitsincloud-blog/tags/dto/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">DTO</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/bitsincloud-blog/tags/java/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">JAVA</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/bitsincloud-blog/tags/spring/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">SPRING</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/bitsincloud-blog/tags/padr%C3%B4es/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">PADRÔES</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/bitsincloud-blog/posts/onde-colocar-mapeamento-dto-arquitetura-hexagonal/">Melhor local para mapeamento DTO</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/bitsincloud-blog/" >
+    &copy;  BitsInCloud 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

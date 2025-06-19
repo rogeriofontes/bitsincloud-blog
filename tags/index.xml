@@ -1,1 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on BitsInCloud</title><link>https://rogeriofontes.github.io/bitsincloud-blog/tags/</link><description>Recent content in Tags on BitsInCloud</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 09 Mar 2025 20:14:52 -0300</lastBuildDate><atom:link href="https://rogeriofontes.github.io/bitsincloud-blog/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog</title><link>https://rogeriofontes.github.io/bitsincloud-blog/tags/blog/</link><pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/tags/blog/</guid><description/></item><item><title>EC2</title><link>https://rogeriofontes.github.io/bitsincloud-blog/tags/ec2/</link><pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/tags/ec2/</guid><description/></item><item><title>Hugo</title><link>https://rogeriofontes.github.io/bitsincloud-blog/tags/hugo/</link><pubDate>Sun, 09 Mar 2025 20:14:52 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/tags/hugo/</guid><description/></item><item><title>Introdução</title><link>https://rogeriofontes.github.io/bitsincloud-blog/tags/introdu%C3%A7%C3%A3o/</link><pubDate>Sun, 09 Mar 2025 20:03:57 -0300</pubDate><guid>https://rogeriofontes.github.io/bitsincloud-blog/tags/introdu%C3%A7%C3%A3o/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on BitsInCloud</title>
+    <link>http://localhost:1313/bitsincloud-blog/tags/</link>
+    <description>Recent content in Tags on BitsInCloud</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2025 13:14:52 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/bitsincloud-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DTO</title>
+      <link>http://localhost:1313/bitsincloud-blog/tags/dto/</link>
+      <pubDate>Fri, 09 May 2025 13:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/tags/dto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JAVA</title>
+      <link>http://localhost:1313/bitsincloud-blog/tags/java/</link>
+      <pubDate>Fri, 09 May 2025 13:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PADRÔES</title>
+      <link>http://localhost:1313/bitsincloud-blog/tags/padr%C3%B4es/</link>
+      <pubDate>Fri, 09 May 2025 13:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/tags/padr%C3%B4es/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SPRING</title>
+      <link>http://localhost:1313/bitsincloud-blog/tags/spring/</link>
+      <pubDate>Fri, 09 May 2025 13:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/tags/spring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/bitsincloud-blog/tags/blog/</link>
+      <pubDate>Tue, 18 Mar 2025 22:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EC2</title>
+      <link>http://localhost:1313/bitsincloud-blog/tags/ec2/</link>
+      <pubDate>Tue, 18 Mar 2025 22:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/tags/ec2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/bitsincloud-blog/tags/hugo/</link>
+      <pubDate>Tue, 18 Mar 2025 22:14:52 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introdução</title>
+      <link>http://localhost:1313/bitsincloud-blog/tags/introdu%C3%A7%C3%A3o/</link>
+      <pubDate>Sun, 09 Mar 2025 20:03:57 -0300</pubDate>
+      <guid>http://localhost:1313/bitsincloud-blog/tags/introdu%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
