@@ -1,0 +1,16 @@
+<aside class="sidebar">
+    <h3>Categorias</h3>
+    <ul>
+      {{ range .Site.Taxonomies.categories }}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+      {{ end }}
+    </ul>
+  
+    <h3>Links Úteis</h3>
+    <ul>
+      <li><a href="/">Início</a></li>
+      <li><a href="/about/">Sobre</a></li>
+      <li><a href="/contact/">Contato</a></li>
+    </ul>
+  </aside>
+  

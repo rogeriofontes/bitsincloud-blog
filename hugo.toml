@@ -1,0 +1,4 @@
+baseURL = 'https://rogeriofontes.github.io/bitsincloud-blog/'
+languageCode = 'en-us'
+title = 'BitsInCloud'
+theme = "loveit"

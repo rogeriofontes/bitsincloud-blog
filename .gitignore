@@ -1,0 +1,27 @@
+# Ignore Hugo build output
+/public/
+
+# Ignore Hugo generated resources (e.g., image processing cache)
+resources/
+
+# Ignore Hugo cache (speed up builds)
+hugo_stats.json
+
+# Ignore OS / Editor temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*~
+*.swp
+*.swo
+
+# Ignore Node.js dependencies (caso use npm ou ferramentas de build frontend junto)
+node_modules/
+
+# Ignore Go modules (caso esteja usando Hugo Modules)
+/go.sum
+/go.mod
+
+# Ignore deployment scripts output (se houver)
+/deploy.sh
